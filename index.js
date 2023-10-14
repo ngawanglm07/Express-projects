@@ -16,9 +16,6 @@ app.get('/contact', (req,res)=>{
     res.send('hello this is the contact page')
 })
 
-
-
-
 app.post('/register' , (req,res) =>{
  res.sendStatus(201);
 })
