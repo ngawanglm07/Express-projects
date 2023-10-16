@@ -2,7 +2,6 @@
 //Make sure you have installed all the dependencies with "npm i".
 //The password is ILoveProgramming
 
-
 import express from "express";
 const app = express();
 let port = 3000;
@@ -25,8 +24,6 @@ if(password === 'iloveprogramming'){
 console.log(userAuthorized)
 next();
 }
-
-
 
 
 app.use(checkpassword)
